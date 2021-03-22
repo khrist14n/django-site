@@ -1,0 +1,598 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+    <!--==========================
+      Intro Section
+    ============================-->
+    <section id="intro" class="wow fadeIn">
+
+      <div class="intro-content">
+        <h2>Haciendo posible <span>ideas</span><br>de todo tipo!</h2>
+        <div>
+          <a href="#about" class="btn-get-started scrollto">Ver mas</a>
+          <a href="#project" class="btn-projects scrollto">Proyectos</a>
+        </div>
+      </div>
+
+      <div id="intro-carousel" class="owl-carousel" >
+        <div class="item" style="background-image: url('{% static 'images/slides/slide1.jpg'%}');"></div>
+        <div class="item" style="background-image: url('{% static 'images/slides/slide2.jpg'%}');"></div>
+        <div class="item" style="background-image: url('{% static 'images/slides/slide3.jpg'%}');"></div>
+        <div class="item" style="background-image: url('{% static 'images/slides/slide4.jpg'%}');"></div>
+      </div>
+
+    </section><!-- #intro -->
+
+    <main id="main">
+
+      <!--==========================
+        About Section
+      ============================-->
+      <section id="about" class="wow fadeInUp">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 about-img">
+              <!--img src="{% static 'images/about/languages_software.png' %}" alt=""-->
+              <div class="row p-2">
+                <div class="col text-center">
+                    <img src="{% static 'images/languages/bash.svg' %}" alt="bash" width="100" height="100" title="bash" data-toggle="tooltip" data-placement="top" >
+                </div>
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/linux.svg' %}" alt="" width="100" height="100" title="linux" data-toggle="tooltip" data-placement="top" >
+                </div>
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/vagrant.svg' %}" alt="" width="100" height="100" title="vagrant" data-toggle="tooltip" data-placement="top" >
+                </div>
+              </div>
+              <div class="row p-2">
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/python.svg' %}" alt="" width="100" height="100">
+                </div>
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/java.svg' %}" alt="" width="100" height="100">
+                </div>
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/csharp.svg' %}" alt="" width="100" height="100">
+                </div>
+              </div>
+              <div class="row p-2">
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/php.svg' %}" alt="" width="100" height="100">
+                </div>
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/javascript.svg' %}" alt="" width="100" height="100">
+                </div>
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/nodejs.svg' %}" alt="" width="100" height="100">
+                </div>
+              </div>
+              <div class="row p-2">
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/css.svg' %}" alt="" width="100" height="100">
+                </div>
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/html.svg' %}" alt="" width="100" height="100">
+                </div>
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/typescript.svg' %}" alt="" width="100" height="100">
+                </div>
+              </div>
+              <div class="row p-2">
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/vue.svg' %}" alt="" width="100" height="100">
+                </div>
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/angular.svg' %}" alt="" width="100" height="100">
+                </div>
+                <div class="col text-center">
+                  <img src="{% static 'images/languages/react.svg' %}" alt="" width="100" height="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 content">
+              <h2 class="mt-5">
+                Perfil
+
+              </h2>
+              <h3>
+                Soy un Desarrollador de Software Web y Apasionado de las tecnologias Web
+              </h3>
+
+              <ul>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i>
+                  Me fascina usar y hacer funcionar todo tipo de tecnologia Web.
+                </li>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i>
+                  Soy un programador senior con un gran conocimiento en distintas tecnologias web enfocadas tanto en Frontend y Backend.
+                </li>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i>
+                  Me encanta desarrollar y arreglar proyectos de todo tipo que tengan objetivo de verse en Web.
+                </li>
+                <li>
+                    <i class="ion-android-checkmark-circle"></i>
+                    Mis proyectos personales se enfocan en hacer mas automatizadas las tareas de desarrollo web.
+                  </li>
+              </ul>
+            </div>
+          </div>
+          <div class="row mt-5">
+
+              <div class="col-lg-6 content">
+                <h2 >
+                    Detalles
+                </h2>
+
+                <h3>
+                    Acerca de mi persona
+                </h3>
+
+                <ul>
+                  <li>
+                    <i class="ion-android-checkmark-circle"></i>
+                    Nombre: Christian Portilla Pauca
+                  </li>
+                  <li>
+                    <i class="ion-android-checkmark-circle"></i>
+                    Tengo 37 años de edad.
+                  </li>
+                  <li>
+                    <i class="ion-android-checkmark-circle"></i>
+                    Soy de Arequipa Peru
+                  </li>
+
+                  <li >
+                      <a class="whatsapp">
+                          <button class="btn btn-outline-success btn-lg" type="button">
+
+                              <i class="fab fa-whatsapp fa-2x"></i>
+
+                              WhatsApp
+
+                          </button>
+                      </a>
+                    </li>
+                </ul>
+
+              </div>
+
+              <div class="col-lg-6 about-img">
+
+                  <img src="{% static 'images/about/developer.jpg' %}" alt="">
+
+              </div>
+
+          </div>
+
+        </div>
+      </section>
+      <!-- #about -->
+
+      <!--==========================
+        Experiences Section
+      ============================-->
+      <section id="experiences">
+          <div class="container">
+            <div class="section-header">
+              <h2>Experiencias</h2>
+              <p>
+                Mis experiencias de trabajo principalmente son en funcion del desarrollo Web y Sistemas Web.
+              </p>
+            </div>
+
+            <div class="row">
+
+              <div class="col-lg-6">
+                <div class="box wow fadeInLeft">
+                  <div class="icon">
+                      <i class="fas fa-cogs fa-3x"></i>
+                  </div>
+                  <h4 class="title">
+                    <a href="" class="whatsapp">
+                      Desarrollo Web
+                    </a>
+                  </h4>
+                  <p class="description">
+                      Desarrollador web independiente de aplicaciones en el ambito de ciencias de la computacion e investigacion.
+                      Universidad Catolica San Pablo (Ubicación Arequipa, Peru)
+                      Año 2009 -2011. Proyecto PIBAP 040.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                  <div class="box wow fadeInLeft">
+                    <div class="icon">
+                        <i class="fas fa-cogs fa-3x"></i>
+                    </div>
+                    <h4 class="title">
+                      <a href="" class="whatsapp">
+                          Desarrollo Web Independiente
+                      </a>
+                    </h4>
+                    <p class="description">
+                        Desarrollador web de Proyecto de GPS
+                        Independiente (Ubicación Arequipa, Peru)
+                        Año 2013. Proyecto GPS.
+                    </p>
+                  </div>
+              </div>
+
+              <div class="col-lg-6">
+                  <div class="box wow fadeInLeft">
+                    <div class="icon">
+                        <i class="fas fa-cogs fa-3x"></i>
+                    </div>
+                    <h4 class="title">
+                      <a href="" class="whatsapp">
+                          Desarrollo Web Backend / Frontend
+                      </a>
+                    </h4>
+                    <p class="description">
+                        Desarrollador web de aplicaciones para OneVisionLife.
+                        Empresa Quickdev (Ubicación Arequipa, Peru)
+                        Año 2014. Proyecto OneVisionLife.
+                    </p>
+                  </div>
+              </div>
+
+              <div class="col-lg-6">
+                  <div class="box wow fadeInLeft">
+                    <div class="icon">
+                        <i class="fas fa-cogs fa-3x"></i>
+                    </div>
+                    <h4 class="title">
+                      <a href="" class="whatsapp">
+                          Desarrollo Web Backend / Frontend / Android
+                      </a>
+                    </h4>
+                    <p class="description">
+                        Desarrollador Web / UI de aplicaciones Sobre Sencha Touch / PHP
+                        (Ubicación Arequipa, Peru)
+                        Año 2014-2015.
+                    </p>
+                  </div>
+              </div>
+
+              <div class="col-lg-6">
+                  <div class="box wow fadeInLeft">
+                    <div class="icon">
+                        <i class="fas fa-cogs fa-3x"></i>
+                    </div>
+                    <h4 class="title">
+                      <a href="" class="whatsapp">
+                          Desarrollo Web Backend / Frontend / Android
+                      </a>
+                    </h4>
+                    <p class="description">
+                        Desarrollador Web / UI de aplicacion Reserva AeroLinea
+                        Empresa Independiente (Ubicación Arequipa, Peru)
+                        Año 2014-2016.
+                    </p>
+                  </div>
+              </div>
+
+              <div class="col-lg-6">
+                  <div class="box wow fadeInLeft">
+                    <div class="icon">
+                        <i class="fas fa-cogs fa-3x"></i>
+                    </div>
+                    <h4 class="title">
+                      <a href="" class="whatsapp">
+                          Desarrollo Web Backend / Frontend / Android
+                      </a>
+                    </h4>
+                    <p class="description">
+                        Desarrollador Backend Aplicacion LoboRobot.
+                        Empresa SmartCity App (Ubicación Arequipa, Peru)
+                        Año 2014-2015. Proyecto PIMEM 060 (SmartCity App).
+                    </p>
+                  </div>
+              </div>
+
+              <div class="col-lg-6">
+                  <div class="box wow fadeInLeft">
+                    <div class="icon">
+                        <i class="fas fa-cogs fa-3x"></i>
+                    </div>
+                    <h4 class="title">
+                      <a href="" class="whatsapp">
+                          Desarrollo Web Backend / Frontend / Android
+                      </a>
+                    </h4>
+                    <p class="description">
+                        Desarrollador Web Aplicacion ERP Puridiom
+                        Empresa Puridiom (Ubicación Arequipa, Peru)
+                        Año 2017.
+                    </p>
+                  </div>
+              </div>
+
+              <div class="col-lg-6">
+                  <div class="box wow fadeInLeft">
+                    <div class="icon">
+                        <i class="fas fa-book fa-3x"></i>
+                    </div>
+                    <h4 class="title">
+                      <a href="">
+                          Universidad Nacional de San Agustin
+                      </a>
+                    </h4>
+                    <p class="description">
+                        Bachiller egresado de la carrera de Ing. de Sistemas.
+                        Año 2012.
+                    </p>
+                  </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+        <!-- #experiences -->
+
+
+
+      <!--==========================
+        skills Section
+      ============================-->
+      <section id="skills" class="wow fadeInUp">
+          <div class="container">
+            <div class="section-header">
+              <h2>
+                Habilidades
+              </h2>
+              <p>
+                Constantemente me especializo en mas herramientas de todo tipo.
+              </p>
+            </div>
+
+            <div class="owl-carousel clients-carousel">
+                <i class="fab fa-linux fa-4x" alt="linux" data-toggle="tooltip" data-placement="top" title="Linux Development"></i>
+                <i class="fas fa-coffee fa-4x" alt="java" data-toggle="tooltip" data-placement="top" title="Java Development"></i>
+                <i class="fab fa-python fa-4x" alt="python" data-toggle="tooltip" data-placement="top" title="Python Development"></i>
+                <i class="fab fa-php fa-4x" alt="php" data-toggle="tooltip" data-placement="top" title="PHP Development"></i>
+                <i class="fab fa-js fa-4x" alt="javascript" data-toggle="tooltip" data-placement="top" title="Javascript Development"></i>
+                <i class="fab fa-node-js fa-4x" alt="node" data-toggle="tooltip" data-placement="top" title="Node"></i>
+                <i class="fas fa-database fa-4x" alt="database" data-toggle="tooltip" data-placement="top" title="Database Development"></i>
+                <i class="fab fa-docker  fa-4x" alt="docker" data-toggle="tooltip" data-placement="top" title="Docker"></i>
+                <i class="fab fa-digital-ocean  fa-4x" alt="digital ocean" data-toggle="tooltip" data-placement="top" title="Digital Ocean Server"></i>
+                <i class="fab fa-ember  fa-4x" alt="emberjs" data-toggle="tooltip" data-placement="top" title="Ember JS Development"></i>
+                <i class="fab fa-github  fa-4x" alt="github" data-toggle="tooltip" data-placement="top" title="Github"></i>
+                <i class="fab fa-git  fa-4x" alt="git" data-toggle="tooltip" data-placement="top" title="Git version Development"></i>
+                <i class="fab fa-grunt  fa-4x" alt="grunt" data-toggle="tooltip" data-placement="top" title="Grunt"></i>
+                <i class="fab fa-gulp  fa-4x" alt="gulp" data-toggle="tooltip" data-placement="top" title="Gulp Development"></i>
+                <i class="fab fa-node  fa-4x " alt="node" data-toggle="tooltip" data-placement="top" title="Node  Development"></i>
+                <i class="fab fa-npm  fa-4x" alt="npm" data-toggle="tooltip" data-placement="top" title="NPM Development"></i>
+                <i class="fab fa-sass  fa-4x" data-toggle="tooltip" data-placement="top" title="SASS Styles" alt="sass"> </i>
+                <i class="fas fa-tablet-alt  fa-4x" data-toggle="tooltip" data-placement="top" title="Android Development" alt="android"></i>
+                <i class="fas fa-list-ol fa-4x " alt="otros mas " data-toggle="tooltip" data-placement="top" title="Entre otros mas ..." ></i>
+            </div>
+
+          </div>
+        </section>
+        <!-- #skills -->
+
+
+        <!--==========================
+        whatsapp Section
+      ============================-->
+      <section id="whatsapp" class="wow fadeInUp">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-9 text-center text-lg-left">
+                <h3 class="cta-title">Contactame por WhatsApp</h3>
+                <p class="cta-text">
+                  Si tienes consultas puedes escribirme a mi WhatsApp.
+                </p>
+              </div>
+              <div class="col-lg-3 cta-btn-container text-center">
+                <a class="cta-btn align-middle whatsapp" href="">
+                  <i class="fab fa-whatsapp fa-2x"></i>
+                  WhatsApp
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <!-- #whatsapp -->
+
+
+      <!--==========================
+        Projects Section
+      ============================-->
+      <section id="project" class="wow fadeInUp">
+          <div class="container">
+            <div class="section-header">
+              <h2>Proyectos</h2>
+              <p>
+                  Los proyectos que desarrollo se enfocan en Web y sistemas Web.
+              </p>
+            </div>
+          </div>
+
+          <div class="container-fluid">
+            <div class="row no-gutters">
+
+              <div class="col-lg-3 col-md-4">
+                <div class="project-item wow fadeInUp">
+                  <a href="{% static 'images/projects/pagina-web.jpg'%}" class="project-popup">
+                    <img src="{% static 'images/projects/pagina-web.jpg' %}" alt="">
+                    <div class="project-overlay">
+                      <div class="project-info"><h2 class="wow fadeInUp">
+                        Paginas Web
+                      </h2></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4">
+                <div class="project-item wow fadeInUp">
+                  <a href="{% static 'images/projects/proyecto-web.jpg' %}" class="project-popup">
+                    <img src="{% static 'images/projects/proyecto-web.jpg' %}" alt="">
+                    <div class="project-overlay">
+                      <div class="project-info"><h2 class="wow fadeInUp">
+                        Portales Web
+                      </h2></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4">
+                <div class="project-item wow fadeInUp">
+                  <a href="{% static 'images/projects/sistema-web.jpg' %}" class="project-popup">
+                    <img src="{% static 'images/projects/sistema-web.jpg' %}" alt="">
+                    <div class="project-overlay">
+                      <div class="project-info"><h2 class="wow fadeInUp">
+                        Sistemas Web
+                      </h2></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-4">
+                <div class="project-item wow fadeInUp">
+                  <a href="{% static 'images/projects/asesoria-web.jpg' %}" class="project-popup">
+                    <img src="{% static 'images/projects/asesoria-web.jpg' %}" alt="">
+                    <div class="project-overlay">
+                      <div class="project-info"><h2 class="wow fadeInUp">
+                        Asesoria de Proyectos Web
+                      </h2></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+        <!-- #portfolio -->
+
+
+
+
+
+      <!--==========================
+        Contact Section
+      ============================-->
+      <section id="contact" class="wow fadeInUp">
+        <div class="container">
+          <div class="section-header">
+            <h2>Contacto</h2>
+            <p>
+                Me puedes escribir en este formulario web.
+            </p>
+          </div>
+
+          <div class="row contact-info">
+
+            <div class="col-md-4">
+              <div class="contact-address">
+                  <a href="" class="whatsapp"  alt="WhatsApp Contactame" data-toggle="tooltip" data-placement="top" title="WhatsApp Contactame">
+                    <i class="ion-social-whatsapp-outline"></i>
+                    <h3>WhatsApp</h3>
+                  </a>
+                  <p>
+                      <a href="" class="whatsapp"   alt="WhatsApp Contactame" data-toggle="tooltip" data-placement="top" title="WhatsApp Contactame">
+                          +51 960677482
+                      </a>
+                  </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="contact-phone">
+                <a href="tel:51960677482" alt="+51960677482" data-toggle="tooltip" data-placement="top" title="+51960677482">
+                  <i class="ion-ios-telephone-outline"></i>
+                  <h3>Celular</h3>
+                </a>
+                <p>
+                  <a href="tel:51960677482"  alt="+51960677482" data-toggle="tooltip" data-placement="top" title="+51960677482">
+                      +51960677482
+                  </a>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="contact-email">
+                <a href="mailto:admin@christianportilla.com" alt="admin@christianportilla.com" data-toggle="tooltip" data-placement="top" title="admin@christianportilla.com">
+                  <i class="ion-ios-email-outline"></i>
+                  <h3>Email</h3>
+                </a>
+                <p>
+                  <a href="mailto:admin@christianportilla.com"  alt="admin@christianportilla.com" data-toggle="tooltip" data-placement="top" title="admin@christianportilla.com">
+                    admin@christianportilla.com
+                  </a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="form">
+            <div id="sendmessage">
+                Tu mensaje fue recibido. Gracias !
+            </div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Ingrese nombre" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Ingrese un email valido" />
+                  <div class="validation"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Tema" data-rule="minlen:4" data-msg="Ingrese ingrese al menos ocho caracteres de texto" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Escriba algo mas" placeholder="Mensaje"></textarea>
+                <div class="validation"></div>
+              </div>
+              <div class="text-center">
+                <button type="submit">
+                  Enviar Mensaje
+                </button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </section><!-- #contact -->
+
+    </main>
+
+    <!--==========================
+      Footer
+    ============================-->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong>Christian Portilla Pauca</strong>. Todos los derechos reservados.
+        </div>
+        <div class="credits">
+          <a href="http://www.christianportilla.com/">Christian Portilla Pauca</a>
+        </div>
+      </div>
+    </footer><!-- #footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+{% endblock %}
